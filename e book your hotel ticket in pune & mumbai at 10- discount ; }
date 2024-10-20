@@ -1,0 +1,12 @@
+[1mdiff --git a/src/main/java/com/example/makemytrip_microservices/flight.java b/src/main/java/com/example/makemytrip_microservices/flight.java[m
+[1mindex 5ddf037..668863b 100644[m
+[1m--- a/src/main/java/com/example/makemytrip_microservices/flight.java[m
+[1m+++ b/src/main/java/com/example/makemytrip_microservices/flight.java[m
+[36m@@ -6,6 +6,6 @@[m [mimport org.springframework.web.bind.annotation.RestController;[m
+ @RestController[m
+ public class flight {[m
+     @GetMapping("/flight")[m
+[31m-    public String getData() {return  "please book your flight ticket in pune 10% discount" ; }[m
+[32m+[m[32m    public String getData() {return  "please book your flight ticket in pune 20% discount" ; }[m
+ }[m
+ [m
